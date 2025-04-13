@@ -1,0 +1,11 @@
+export default function Home() {
+  return (
+    <div style={{ fontFamily: 'Arial', textAlign: 'center', padding: '50px' }}>
+      <h1 style={{ color: '#2563EB' }}>Welcome to ContentZen</h1>
+      <p style={{ fontSize: '18px' }}>AI-powered topic ideas for YouTubers</p>
+      <button style={{ padding: '10px 20px', fontSize: '16px', backgroundColor: '#2563EB', color: 'white', border: 'none', borderRadius: '8px', marginTop: '20px' }}>
+        Join Now
+      </button>
+    </div>
+  );
+}
